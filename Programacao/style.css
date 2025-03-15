@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Maven+Pro:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root {
+    --jetBrains: "JetBrains Mono", monospace;
+    --mavenPro: "Maven Pro", sans-serif;
+    --Red: #FF0000;
+
+}
+
+.home {
+    position:relative;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+    font-size: 50px;    
+    font-family: var(--jetBrains);
+    font-weight: 200;
+    font-style: italic;
+}
+
+.lucas  {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    bottom: 100px;
+    font-weight: 700;
+    font-family: var(--mavenPro);
+    font-size: 70px;
+    font-style: normal;
+    background: -webkit-linear-gradient(45deg,#ae00ff, #01ee9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.background {
+    background: -webkit-linear-gradient(#181a1b,#060606)
+}
