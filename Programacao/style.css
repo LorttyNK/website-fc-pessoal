@@ -1,6 +1,39 @@
-
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Maven+Pro:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@keyframes degradeMovimento {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 100;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+
+@keyframes in {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+
+.fade-in-element {
+    opacity: 0;
+    animation: ;
+}
+
 
 
 :root {
@@ -10,8 +43,15 @@
 
 }
 
+body {
+    margin: 0;
+    background: #1a141e;
+    /* background: #1a181b; */
+    overflow-x: hidden;
+}
+
 .home {
-    position:relative;
+    position: relative;
 }
 
 .titulo {
@@ -20,28 +60,110 @@
     justify-content: center;
     position: relative;
     top: 25px;
-    font-size: 50px;    
+    font-size: 50px;
+    color: #e2e2e2;
     font-family: var(--jetBrains);
     font-weight: 200;
-    font-style: italic;
+    text-shadow: 2px 2px 2px #050505;
+    letter-spacing: 10px;
 }
 
-.lucas  {
+.lucas {
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
-    bottom: 100px;
+    bottom: 150px;
     font-weight: 700;
     font-family: var(--mavenPro);
-    font-size: 70px;
+    font-size: 140px;
     font-style: normal;
-    background: -webkit-linear-gradient(45deg,#ae00ff, #01ee9f);
+    background: -webkit-linear-gradient(45deg, #ae00ff, #01ee9f, #ae00ff);
+    /* background: -webkit-linear-gradient(45deg,#ae00ff, #01ee9f); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    z-index: 2;
+    background-size: 1000% 1000%;
+    animation: degradeMovimento 3s linear infinite;
 
 }
 
-.background {
-    background: -webkit-linear-gradient(#181a1b,#060606)
+.bold {
+    font-weight: bold;
 }
+
+.subTitulo {  
+    font-family: var(--jetBrains);
+    color: #eee9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+    bottom: 100px;
+}
+
+.topicos{
+    font-family: var(--mavenPro);
+    color: #ff95ff;
+    font-size:  100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 300px;
+    bottom: 175px;
+}
+
+.opacity {
+    animation: opacity 2s linear infinite;
+}
+
+.espacamento {
+    letter-spacing: 30px;
+    background: -webkit-linear-gradient(120deg, #ff95ff,#251e21, #ff95ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1000% 1000%;
+    animation: degradeMovimento 3s linear infinite;
+}
+
+
+.icons {
+    max-width: 100px;
+    height: 100px;
+    box-shadow: 0 0 100px 1px rgba(107, 2, 193, 0.5);
+    border-radius: 100px;
+}
+
+.iconsPosicao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 500px;
+    left: 290px;
+    overflow: auto;
+}
+
+
+/* .navegacao {
+    overflow: hidden;
+    background-color: #000000;
+} */
+
+/* .navegacaoTitulo {
+    font-family: var(--mavenPro);
+    color:#5b0879;
+    height: 100px;
+} */
+
+
+.img {
+    bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
