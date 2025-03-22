@@ -160,6 +160,7 @@ body {
     align-items: center;
     position: relative;
     margin: auto;
+    bottom: 300px;
 }
 
 .contato {
