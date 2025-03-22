@@ -156,12 +156,13 @@ body {
 
 .imgIn {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     position: relative;
-    margin: auto;
     bottom: 300px;
+    gap: 20px;
 }
+
 
 .contato {
     font-family: var(--mavenPro);
@@ -172,4 +173,3 @@ body {
     position: relative;
     bottom: 300px;
     font-size: 30px;
-}
