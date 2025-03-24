@@ -15,9 +15,11 @@
     0% {
         opacity: 100;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 100;
     }
@@ -25,8 +27,13 @@
 
 
 @keyframes in {
-    from { opacity: 0;}
-    to { opacity: 1;}
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .fade-in-element {
@@ -91,7 +98,7 @@ body {
     font-weight: bold;
 }
 
-.subTitulo {  
+.subTitulo {
     font-family: var(--jetBrains);
     color: #eee9e9;
     display: flex;
@@ -102,10 +109,21 @@ body {
     bottom: 100px;
 }
 
-.topicos{
+.subTitulo2 {
+    font-family: var(--jetBrains);
+    color: #eee9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+    bottom: 400px;
+}
+
+.topicos {
     font-family: var(--mavenPro);
     color: #ff95ff;
-    font-size:  100px;
+    font-size: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,7 +138,7 @@ body {
 
 .espacamento {
     letter-spacing: 30px;
-    background: -webkit-linear-gradient(120deg, #ff95ff,#251e21, #ff95ff);
+    background: -webkit-linear-gradient(120deg, #ff95ff, #251e21, #ff95ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1000% 1000%;
@@ -173,3 +191,48 @@ body {
     position: relative;
     bottom: 300px;
     font-size: 30px;
+}
+
+.audio {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 400px;
+
+}
+
+
+
+.footer {
+
+    font-family: var(--mavenPro);
+    color: whitesmoke;
+    background-color: #3d2847;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.texto1 {
+    color: #e2e2e2;
+    font-family: var(--jetBrains);
+
+    display: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+
+    font-style: bold;
+    font-size: 25px;
+    padding: 20px;
+
+    bottom: 450px;
+}
