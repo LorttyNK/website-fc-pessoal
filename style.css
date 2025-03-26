@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Maven+Pro:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @keyframes degradeMovimento {
     0% {
@@ -34,10 +35,11 @@
 }
 
 body {
-    margin: 0;
+    margin: 0px;
     background: #1a141e;
     overflow-x: hidden;
 }
+
 
 .home {
     position: relative;
@@ -83,6 +85,17 @@ body {
     font-weight: bold;
 }
 
+
+
+.aLogo {
+    bottom: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
 .subTitulo {
     font-family: var(--jetBrains);
     color: #eee9e9;
@@ -92,14 +105,14 @@ body {
     justify-content: center;
     position: relative;
     font-size: 30px;
-    bottom: 100px;
+    bottom: 150px;
 }
 
 .texto1 {
     color: #e2e2e2;
     font-family: var(--jetBrains);
 
-    display: center;
+    display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -125,6 +138,8 @@ body {
     bottom: 400px;
 }
 
+
+
 .topicos {
     font-family: var(--mavenPro);
     color: #ff95ff;
@@ -136,7 +151,7 @@ body {
     position: relative;
 
     right: 300px;
-    bottom: 175px;
+    bottom: 200px;
 }
 
 .opacity {
@@ -171,12 +186,13 @@ body {
 }
 
 .img {
-    bottom: 200px;
+    bottom: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
+
 
 .imgIn {
     display: flex;
@@ -198,6 +214,7 @@ body {
     justify-content: center;
     position: relative;
     bottom: 300px;
+
     font-size: 30px;
 }
 
@@ -214,12 +231,14 @@ body {
     color: whitesmoke;
     background-color: #3d2847;
 
+    position: sticky;
+    margin-top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-style: normal;
     font-size: 20px;
-    padding: 20px;
+    padding: 15px;
 }
 
 
@@ -227,3 +246,30 @@ body {
     color: inherit;
     text-decoration: none;
 }
+
+
+.finalName {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    color: #ffffff0e;
+    font-size: 200px;
+    width: 100%;
+    right: 100px;
+    letter-spacing: -5px;
+    position: relative;
+    line-height: 150px;
+    /* bottom:850px; */
+    z-index: -2;
+    white-space: nowrap;
+}
+
+.container {
+
+    margin-bottom: 0; /* Ajuste conforme necessário */
+
+    padding-bottom: 0; /* Ajuste conforme necessário */
+
+}
+
+
