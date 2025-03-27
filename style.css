@@ -121,6 +121,7 @@ body {
     justify-content: center;
     position: relative;
     font-size: 30px;
+
     /* bottom: 150px; */
 }
 
@@ -139,6 +140,7 @@ body {
     justify-content: center;
     position: relative;
 
+ 
     right: 300px;
     /* bottom: 200px; */
 }
