@@ -192,6 +192,10 @@ body {
     /* bottom: 450px; */
 }
 
+.explicacaoLink:hover {
+    color: #ea00ff;
+}
+
 .mixer {
     font-family: var(--jetBrains);
     color: #eee9e9;
@@ -250,11 +254,10 @@ body {
 
 table {
     font-family: var(--mavenPro);
-    border-collapse: collapse;
+    border: 1px solid #bf97da;
     width: 50%;
 
     margin: auto;
-    padding: 10px;
 
     margin-top: 125px;
 }
@@ -265,7 +268,6 @@ tr, td {
     border: 1px solid #bf97da;
     text-align: left;
     padding: 8px;
-
 
 }
 
@@ -283,4 +285,15 @@ tr, td {
     font-style: normal;
     font-size: 20px;
     padding: 15px;
+}
+
+.finalPage {
+    text-align: center;
+    justify-content: center;
+}
+
+.finalPage1:hover {
+    text-align: center;
+    justify-content: center;
+    color: #ff95ff;
 }
